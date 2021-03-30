@@ -1,6 +1,6 @@
 <?php
 
-class TruckFactory extends TransportFactory 
+class TruckFactory implements TransportFactory 
 {
     /**
      * Create a new Truck.

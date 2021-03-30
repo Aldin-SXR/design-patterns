@@ -1,6 +1,6 @@
 <?php
 
-class ShipFactory extends TransportFactory 
+class ShipFactory implements TransportFactory 
 {
     /**
      * Create a new Ship.

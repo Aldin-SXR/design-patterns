@@ -3,11 +3,11 @@
 /**
  * Factory for creating Transport objects.
  */
-abstract class TransportFactory
+interface TransportFactory
 {
 
     /**
      * Method to create an Instance of a transport
      */
-    public abstract function createTransport(): Transport;
+    public function createTransport(): Transport;
 }
