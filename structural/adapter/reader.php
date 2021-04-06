@@ -25,7 +25,7 @@ function readBook(Book $book)
 /* Read a paper book */
 $paperBook = new PaperBook();
 readBook($paperBook);
-echo "\n";
+echo "======\n";
 
 /* Read on a Kindle */
 $kindle = new Kindle();

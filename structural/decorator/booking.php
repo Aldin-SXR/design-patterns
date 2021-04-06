@@ -16,6 +16,8 @@ $booking = new WiFi($booking);
 echo $booking->getDescription() . "\n";
 echo "Price: " . $booking->calculatePrice() . "\n";
 
+echo "======\n";
+
 /* Book a double room with WiFi and room service */
 $booking2 = new DoubleRoomBooking();
 $booking2 = new WiFi($booking2);
