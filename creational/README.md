@@ -40,6 +40,7 @@
 **Prototype** is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 
 - [About Prototype](https://refactoring.guru/design-patterns/prototype)
+- [Example implementation](https://github.com/Aldin-SXR/design-patterns/tree/master/creational/prototype)
 
 ---
 > Aldin Kovačević,
