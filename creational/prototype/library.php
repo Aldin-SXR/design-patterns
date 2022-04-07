@@ -19,7 +19,7 @@ $phpBook2 = clone $phpBook1;
 echo "Book 2 topic: " . $phpBook2->getTopic() . "\n";
 echo "Book 2 title: " . $phpBook2->getTitle() . "\n\n";
 
-echo "Books by: " . $author->getName() . ":\n";
+echo "Books by " . $author->getName() . ":\n";
 foreach ($author->getBooks() as $book) {
     echo $book->getTitle() . "\n";
 }

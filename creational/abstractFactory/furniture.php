@@ -24,7 +24,7 @@ function getFurniture(FurnitureFactory $factory): void
      * Create and use a chair
      */
     $chair = $factory->createChair();
-    $chair ->sitOn();
+    $chair->sitOn();
 
     /**
      * Create and use a bed.
@@ -36,7 +36,7 @@ function getFurniture(FurnitureFactory $factory): void
 /**
  * Choice of factory (based on the environment configuration or client needs).
  */
-$client_preference = 'modern';
+$client_preference = 'traditional';
 
 switch ($client_preference) {
     case 'modern':

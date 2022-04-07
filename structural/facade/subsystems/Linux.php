@@ -12,6 +12,6 @@ class Linux implements OperatingSystem
     
     public function getName(): string
     {
-        return "Manjaro Linux";
+        return "Ubuntu Linux";
     }
 }

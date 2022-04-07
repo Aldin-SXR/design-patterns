@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Our Invoker class.
+ * Our Sender/Invoker class.
  * The Invoker class is using the command given to it. 
  */
 class ConsoleInvoker

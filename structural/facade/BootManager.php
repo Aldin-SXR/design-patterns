@@ -1,10 +1,10 @@
 <?php
 /**
- * The "facade" Power class for turning a PC on or off.
+ * The "facade" BootManager class for turning a PC on or off.
  * It hides the internal complexities of the system and
  * provide a simple interface to clients. 
  */
-class Power
+class BootManager
 {
     private Bios $bios;
     private OperatingSystem $os;
